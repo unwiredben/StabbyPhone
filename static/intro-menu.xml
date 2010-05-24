@@ -1,0 +1,15 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<Response>
+<Gather action="http://stabbyphone.appspot.com/setLanguage" method="post"
+numDigits="1">
+<Play>http://stabbyphone.appspot.com/e_Hello.wav</Play>
+<Play>http://stabbyphone.appspot.com/e_StabEnglish.wav</Play>
+<Play>http://stabbyphone.appspot.com/s_SpanishPress2.wav</Play>
+<!--<Say>
+To stab someone in English, press 1.
+</Say>
+<Say language="es">
+Apuñalar a alguien en español, pulse 2.
+</Say>-->
+</Gather>
+</Response>

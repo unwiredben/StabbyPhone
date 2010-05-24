@@ -1,0 +1,5 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<Response>
+<Play>http://stabbyphone.appspot.com/e_PleaseHoldWhile.wav</Play>
+<Redirect>http://stabbyphone.appspot.com/holdWhileStabbing</Redirect>
+</Response>

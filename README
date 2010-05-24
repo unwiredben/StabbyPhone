@@ -1,0 +1,10 @@
+StabbyPhone is the software behind the Mr. Stabby IVR software shown at 
+the May 2010 TechCrunch Disrupt Hackday in New York City. 
+
+It uses the Twilio API to publish voice and decision trees to a phone 
+number. Based on keypad entries, an indicator on the web server is 
+modified which is continually polled by an Arduino on the robot. This 
+Arduino reads the command and controls Mr. Stabby's motion. 
+
+Software developed by Ben Combee, combee@techwood.org.
+Released into the public domain.

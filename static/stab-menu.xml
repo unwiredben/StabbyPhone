@@ -1,0 +1,13 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<Response>
+<Gather action="http://stabbyphone.appspot.com/setStabCommand" method="post"
+numDigits="1">
+<Say>
+To stab, press 1.
+To gouge, press 2.
+To eviscerate, press 3.
+To slash, press 4.
+To sleep, press 5.
+</Say>
+</Gather>
+</Response>

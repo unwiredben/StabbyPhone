@@ -1,0 +1,18 @@
+application: stabbyphone
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /(.*\.xml)
+  static_files: static/\1
+  upload: static/(.*\.xml)
+  mime_type: text/xml
+
+- url: /(.*\.wav)
+  static_files: static/\1
+  upload: static/(.*\.wav)
+  mime_type: audio/wave
+  
+- url: .*
+  script: main.py
